@@ -4,10 +4,11 @@ Real-time monitoring and debugging tool for Kuralit AI Voice Agent servers. Moni
 
 <div align="center">
   <video width="800" controls>
-    <source src="./videos/Kuralit Demo.mp4" type="video/mp4">
+    <source src="https://raw.githubusercontent.com/kuralit/kuralit-ui/main/videos/Kuralit%20Demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <p><em>Watch the Kuralit Dashboard in action</em></p>
+  <p><a href="https://github.com/kuralit/kuralit-ui/raw/main/videos/Kuralit%20Demo.mp4">Download video</a> if it doesn't play above</p>
 </div>
 
 ## Features
