@@ -2,13 +2,9 @@
 
 Real-time monitoring and debugging tool for Kuralit AI Voice Agent servers. Monitor conversations, track metrics, and debug agent interactions in real-time.
 
-<div align="center">
-  <video width="800" controls>
-    <source src="https://github.com/user-attachments/assets/9272677c-0322-4991-9717-61be2bb45563" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p><em>Watch the Kuralit Dashboard in action</em></p>
-</div>
+Here's what the Kuralit Dashboard looks like in action:
+
+<video src="https://github.com/user-attachments/assets/9272677c-0322-4991-9717-61be2bb45563" controls width="800"></video>
 
 ## Features
 
