@@ -4,7 +4,7 @@ Real-time monitoring and debugging tool for Kuralit AI Voice Agent servers. Moni
 
 Here's what the Kuralit Dashboard looks like in action:
 
-<video src="https://github.com/user-attachments/assets/9272677c-0322-4991-9717-61be2bb45563" controls width="800"></video>
+![Kuralit Dashboard](assets/kuralit-dashboard.png)
 
 ## Features
 
