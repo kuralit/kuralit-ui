@@ -1,0 +1,5 @@
+{
+  "name": "Kuralit Dev Dashboard",
+  "description": "A minimal, local-only developer dashboard for the Kuralit voice agent SDK.",
+  "requestFramePermissions": []
+}

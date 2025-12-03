@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuralit Dev Dashboard</title>
+    <link rel="icon" type="image/jpeg" href="/logo/kuralit-b.jpeg" />
+    <link rel="apple-touch-icon" href="/logo/kuralit-b.jpeg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              // Primary Brand
+              'sunset-orange': '#DE4B2E',
+              'deep-orange': '#B83A20',
+              'midnight-blue': '#26366B',
+              
+              // Accents
+              'electric-teal': '#12BAAA',
+              'circuit-yellow': '#FBDF54',
+              'ice-cyan': '#9FD2D6',
+              'neon-pink': '#EC4899',
+              'violet': '#8B5CF6',
+              
+              // Dark Mode Surfaces ("Neural Terminal")
+              'deep-void': '#020408',
+              'charcoal': '#050505',
+              'carbon': '#161A21',
+              'obsidian': '#1C232E',
+              'machine': '#2A3441',
+              
+              // Light Mode Surfaces ("Blueprint")
+              'paper-white': '#F9FAFB',
+              'surface-white': '#FFFFFF',
+              'slate-ink': '#0F172A',
+              'graphite': '#4B5563',
+              'grid-lines': '#E2E8F0',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Minimal custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #E2E8F0; /* grid-lines */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #CBD5E1;
+      }
+      
+      /* Dark mode scrollbar */
+      .dark ::-webkit-scrollbar-thumb {
+        background: #2A3441; /* machine */
+      }
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: #374151;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-paper-white dark:bg-deep-void text-slate-ink dark:text-white antialiased font-sans selection:bg-sunset-orange/20 dark:selection:bg-sunset-orange/30 h-screen overflow-hidden">
+    <div id="root" class="h-full"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
